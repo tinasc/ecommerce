@@ -10,7 +10,7 @@ const App = () => {
         <header className="row">
           <div>
             <a className="brand" href="/">
-              amazona
+              e-store
             </a>
           </div>
           <div>
