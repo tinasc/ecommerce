@@ -167,10 +167,14 @@ img.large {
   color: #f0c040;
   margin: 0.1rem;
 }
+
 .rating span:last-child {
   color: #404040;
 }
 /* Alert */
+.loading {
+  display: block !important;
+}
 .success {
   color: #20a020;
 }
