@@ -13,6 +13,7 @@ import PlaceOrderScreen from './screens/PlaceOrderScreen';
 import OrderScreen from './screens/OrderScreen';
 import OrderHistoryScreen from './screens/OrderHistoryScreen';
 import ProfileScreen from './screens/ProfileScreen';
+import PrivateRoute from './components/PrivateRoute.js';
 
 const App = () => {
   const cart = useSelector((state) => state.cart);
@@ -74,7 +75,10 @@ const App = () => {
         <Route path="/orderhistory" component={OrderHistoryScreen}></Route>
         <Route path="/signin" component={SigninScreen}></Route>
         <Route path="/" component={HomeScreen} exact></Route> 
-        <Route path="/profile" component={ProfileScreen}></Route>
+        <PrivateRoute
+            path="/profile"
+            component={ProfileScreen}
+          ></PrivateRoute>
       </main>
       <footer className="row center"> @2021 All right reserved</footer>
     </div>
