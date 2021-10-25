@@ -89,7 +89,7 @@ const App = () => {
       </header>
       <main>
         <Route path="/cart/:id?"component={CartScreen}></Route>
-        <Route path="/product/:id" component={ProductScreen}>exact</Route>
+        <Route path="/product/:id" component={ProductScreen} exact></Route>
         <Route path="/register" component={RegisterScreen}></Route> 
         <Route path="/shipping" component={ShippingAddressScreen}></Route>
         <Route path="/payment" component={PaymentMethodScreen}></Route>
