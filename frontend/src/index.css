@@ -102,6 +102,7 @@ a.brand {
   color: #ffffff;
   font-size: 3rem;
   font-weight: bold;
+  font-style: italic;
 }
 .badge {
   background-color: #f02020;
@@ -146,7 +147,7 @@ img.medium {
 }
 
 img.large {
-  width: 100%;
+  width: 95%;
 }
 
 /* Card */

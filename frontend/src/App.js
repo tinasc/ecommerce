@@ -73,16 +73,10 @@ const App = () => {
                 </Link>
                 <ul className="dropdown-content">
                   <li>
-                    <Link to="/dashboard">Dashboard</Link>
-                  </li>
-                  <li>
                     <Link to="/productlist">Products</Link>
                   </li>
                   <li>
                     <Link to="/orderlist">Orders</Link>
-                  </li>
-                  <li>
-                    <Link to="/userlist">Users</Link>
                   </li>
                 </ul>
               </div>
@@ -118,7 +112,7 @@ const App = () => {
           component={OrderListScreen}
          ></AdminRoute>
       </main>
-      <footer className="row center"> @2021 All right reserved</footer>
+      <footer className="row center"> @2021 All Rights Reserved</footer>
     </div>
     </BrowserRouter>
   );
