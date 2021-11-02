@@ -17,7 +17,7 @@ const data = {
   ],
     products: [
       {
-        name: 'US Polo',
+        name: 'US Polo Dress',
         category: 'Dresses',
         image: '/images/p1.jpg',
         price: 200,
