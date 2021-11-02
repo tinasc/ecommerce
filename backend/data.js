@@ -60,6 +60,28 @@ const data = {
         numReviews: 14,
         description: 'High quality product',
       },
+      {
+        name: 'Melanie Lyne Bag',
+        category: 'Handbags',
+        image: '/images/p5.jpg',
+        price: 450,
+        countInStock: 2,
+        brand: 'Melanie Lyne',
+        rating: 4.5,
+        numReviews: 14,
+        description: 'High quality product',
+      },
+      {
+        name: 'Laura Bag',
+        category: 'Handbags',
+        image: '/images/p6.jpg',
+        price: 350,
+        countInStock: 14,
+        brand: 'Laura',
+        rating: 4.5,
+        numReviews: 14,
+        description: 'High quality product',
+      },
     ],
   };
   export default data;
